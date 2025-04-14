@@ -1,6 +1,6 @@
 # Image Blur Extension 🔒🖼️
 
-A privacy-focused browser extension that blurs all images by default on any website. Hover to reveal. Built for both **Chrome** and **Firefox**.
+A privacy-focused browser extension that blurs all images by default on any website. Hover to reveal. Built for both **Chromium** and **Firefox**.
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@ A privacy-focused browser extension that blurs all images by default on any webs
 ## 🚀 How to Use
 
 ### Chrome
-1. Go to `chrome/` folder
+1. Go to `chromium/` folder
 2. Load it via `chrome://extensions > Load Unpacked`
 
 ### Firefox
@@ -27,5 +27,5 @@ A privacy-focused browser extension that blurs all images by default on any webs
 
 ## 🛠 Dev Notes
 
-- Chrome uses `manifest_version: 3`
+- Chromium uses `manifest_version: 3`
 - Firefox uses `manifest_version: 2` (until full MV3 support)
