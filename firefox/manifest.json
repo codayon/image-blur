@@ -1,14 +1,24 @@
 {
   "manifest_version": 2,
   "name": "Image Blur Extension",
+  "short_name": "ImageBlur",
   "description": "Blurs images on websites until hovered or toggled off.",
   "version": "1.0",
+  "author": "Reshad Ahammed Ayon",
+  "homepage_url": "https://github.com/codayon/image-blur",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "128.0"
+    }
+  },
   "permissions": ["storage", "activeTab"],
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icon16.png",
+      "32": "icon32.png",
       "48": "icon48.png",
+      "64": "icon64.png",
       "128": "icon128.png"
     }
   },
@@ -24,7 +34,9 @@
   ],
   "icons": {
     "16": "icon16.png",
+    "32": "icon32.png",
     "48": "icon48.png",
+    "64": "icon64.png",
     "128": "icon128.png"
   }
 }
