@@ -23,7 +23,7 @@ A privacy-focused browser extension that blurs all images by default on any webs
 ## 📦 How to Install (Stores)
 
 - Chrome Web Store: _Coming soon_
-- Firefox Add-ons (AMO): _Coming soon_
+- Firefox Add-ons: [v1.0.0](https://addons.mozilla.org/en-US/firefox/addon/image-blur/)
 
 ## 🛠 Dev Notes
 
